@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet } from "react-native";
 
+
 export const styles = StyleSheet.create({
     container:{
         flex: 0,
@@ -13,9 +14,9 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-        marginTop: 20,
-        marginLeft: 10,
-        marginRight: 10
+        marginTop: '5%',
+        marginLeft: '5%',
+        marginRight: '5%'
 
     },
     lupaPonto:{
@@ -35,17 +36,17 @@ export const styles = StyleSheet.create({
     },
     lupa:{
         width:24,
-        height:24
+        height:24,
+        marginRight: 30
     },
     pontos:{
         width:24,
         height: 24,
-        marginLeft: 30
     },
     containerTitle:{
         flex: 0,
         alignItems: 'center',
-        marginTop: 20
+        marginTop: '5%'
     },
     title:{
         color: 'white',
