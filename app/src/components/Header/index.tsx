@@ -10,7 +10,7 @@ import pontos from '../../assets/HeaderHome/opcoes.png';
 export default function Header(){
     return(
         <>
-            <StatusBar barStyle='default' backgroundColor="#FF9B43"/>
+            <StatusBar backgroundColor="#FF9B43"/>
             <View style={styles.container}>
                 <View style={styles.opcoes}>
                     <Image source={logo} style={styles.logo} />
