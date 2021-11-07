@@ -3,10 +3,11 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import Load from './src/pages/Load';
+import Home from './src/pages/Home';
 
 export default function App() {
   return (
-      < Load/>
+      < Home/>
   );
 }
 
