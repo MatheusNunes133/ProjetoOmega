@@ -7,11 +7,10 @@ export const styles = StyleSheet.create({
         backgroundColor: '#121212',
         alignItems: 'center',
         flexDirection: 'column',
-        
     },
     msgBoasVindas:{
         color: 'white',
-        marginTop: 300,
+        marginTop: 100,
         fontSize: 36,
     },
     btnPlay:{
@@ -19,7 +18,10 @@ export const styles = StyleSheet.create({
         height: 100,
         marginTop: 100
     },
-    button:{
-        color:'green'
+    logo:{
+        width: 180,
+        height: 180,
+        marginTop: 100,
+        borderRadius:20
     }
 })
