@@ -18,13 +18,10 @@ export const styles = StyleSheet.create({
         borderWidth: 2,
         borderColor: 'white',
         width:200,
-        height: 30,
+        height: 35,
         color: 'white',
         backgroundColor: 'white',
-        borderBottomLeftRadius: 5,
-        borderBottomRightRadius: 5,
-        borderTopLeftRadius: 5,
-        borderTopRightRadius: 5,
+        borderRadius: 5,
         marginLeft: '30%'
     },
     placeholder:{
