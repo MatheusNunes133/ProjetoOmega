@@ -15,7 +15,7 @@ export default function Home(){
                     <SafeAreaView style={styles.input}>
                         <TextInput placeholder='Inserir Tarefa...' style={styles.placeholder}/>
                     </SafeAreaView>
-                    <TouchableOpacity>
+                    <TouchableOpacity activeOpacity={0.5}>
                         <Image source={btnEnviar} style={styles.btnEnviar} />
                     </TouchableOpacity>
                 </View>

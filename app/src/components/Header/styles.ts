@@ -46,10 +46,11 @@ export const styles = StyleSheet.create({
     containerTitle:{
         flex: 0,
         alignItems: 'center',
-        marginTop: '5%'
+        marginTop: '5%',
     },
     title:{
         color: 'white',
         fontSize: 25
-    }
+    },
+   
 });
