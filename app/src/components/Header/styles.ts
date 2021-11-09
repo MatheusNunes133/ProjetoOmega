@@ -50,6 +50,9 @@ export const styles = StyleSheet.create({
     },
     title:{
         color: 'white',
-        fontSize: 25
+        fontSize: 25,
+        textShadowColor: '#121212',
+        textShadowOffset: { width: 0, height: 0},
+        textShadowRadius: 20
     }
 });
