@@ -18,10 +18,13 @@ export const styles = StyleSheet.create({
         borderWidth: 2,
         borderColor: 'white',
         width:200,
-        height: 35,
+        height: 30,
         color: 'white',
         backgroundColor: 'white',
-        borderRadius: 5,
+        borderBottomLeftRadius: 5,
+        borderBottomRightRadius: 5,
+        borderTopLeftRadius: 5,
+        borderTopRightRadius: 5,
         marginLeft: '30%'
     },
     placeholder:{
@@ -32,5 +35,16 @@ export const styles = StyleSheet.create({
         height: 40,
         marginTop: '-20%',
         marginLeft: '17%',
-    }
+    },
+    containerTitle:{
+        flex: 0,
+        alignItems: 'center',
+        marginTop: '-19%',
+        marginBottom: '10%'
+    },
+    title:{
+        color: 'white',
+        fontSize: 25,
+
+    },
 });

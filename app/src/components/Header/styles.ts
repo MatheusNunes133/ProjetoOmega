@@ -43,16 +43,4 @@ export const styles = StyleSheet.create({
         width:24,
         height: 24,
     },
-    containerTitle:{
-        flex: 0,
-        alignItems: 'center',
-        marginTop: '5%'
-    },
-    title:{
-        color: 'white',
-        fontSize: 25,
-        textShadowColor: '#121212',
-        textShadowOffset: { width: 0, height: 0},
-        textShadowRadius: 20
-    }
 });

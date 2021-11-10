@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StatusBar, Image, Text, TouchableOpacity} from "react-native";
+import { View, StatusBar, Image, TouchableOpacity} from "react-native";
 
 import { styles } from "./styles";
 
@@ -15,7 +15,7 @@ export default function Header(){
                 <View style={styles.opcoes}>
                     <Image source={logo} style={styles.logo} />
                     <View style={styles.lupaPonto}>
-                        <TouchableOpacity activeOpacity={0.5}>
+                        <TouchableOpacity activeOpacity={0.5} /* onPressIn={addTask} */>
                             <Image source={lupa} style={styles.lupa} />
                         </TouchableOpacity>
                         <TouchableOpacity activeOpacity={0.5}>
@@ -23,9 +23,6 @@ export default function Header(){
                         </TouchableOpacity>
                         
                     </View>
-                </View>
-                <View style={styles.containerTitle}>
-                    <Text style={styles.title}>Tarefas (X)</Text>
                 </View>
             </View>
 
