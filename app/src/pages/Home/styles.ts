@@ -35,5 +35,16 @@ export const styles = StyleSheet.create({
         height: 40,
         marginTop: '-20%',
         marginLeft: '17%',
-    }
+    },
+    containerTitle:{
+        flex: 0,
+        alignItems: 'center',
+        marginTop: '-19%',
+        marginBottom: '10%'
+    },
+    title:{
+        color: 'white',
+        fontSize: 25,
+
+    },
 });
